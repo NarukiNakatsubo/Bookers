@@ -1,0 +1,26 @@
+<div class="show">
+  
+  <div class="show_main">
+    <div class="show_title">
+      <%= flash[:notice] %>
+    </div>
+    
+    <div class="show_title">
+      <strong>Title:</strong>
+      <%= @book.title %>
+    </div>
+    
+    <div class="show_title">
+      <strong>Body:</strong>
+      <%= @book.body %>
+    </div>
+  </div>
+  
+  <div class="show_url">
+    <%=link_to "Edit", edit_book_path, method: :GET %>
+    <div class="separate">|</div>
+    <%=link_to "Back", books_path, method: :GET %>
+  </div>
+
+  
+</div>

@@ -1,0 +1,66 @@
+// Place all the styles related to the lists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.books {
+  padding: 30px;
+}
+
+table th {
+  text-align: center;
+}
+
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.link {
+  padding: 0px;
+}
+
+a {
+  padding-right: 5px;
+}
+
+.field {
+  padding-top: 5px;
+}
+
+.show {
+  padding: 30px;
+}
+
+.show_main {
+  padding-left: 40px;
+}
+
+.show_error {
+  color: green;
+  padding-bottom: 10px;
+}
+
+.show_title {
+  padding: 10px;
+}
+
+.show_title:first-child {
+  color: green;
+}
+
+.show_url {
+  display: flex;
+  padding-top: 20px;
+}
+
+.separate {
+  padding-right: 5px;
+}
+
+ul {
+  padding-left: 70px;
+}
+
+.edit {
+  padding: 30px;
+}
